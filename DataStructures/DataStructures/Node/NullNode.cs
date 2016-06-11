@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MatrixInterface.Node
+namespace DataStructures.Node
 {
     class NullNode<T>:INode<T>
     {
