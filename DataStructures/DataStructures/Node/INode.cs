@@ -9,8 +9,6 @@ namespace DataStructures
     public interface INode<T>
     {
         T Value { get; set; }
-        int XValue { get; set; }
-        int YValue { get; set; }
         Dictionary<string, INode<T>> Pointer { get; }
         void SetPointer(string name, INode<T> node );
     }
